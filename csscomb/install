@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+cd "$(dirname "${BASH_SOURCE}")"
+WD=`pwd`
+rm -f ~/.csscomb.json && ln -s ${WD}/.csscomb.json ~/.csscomb.json && echo 'Replace ~/.csscomb.json'
