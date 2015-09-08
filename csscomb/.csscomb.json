@@ -26,6 +26,7 @@
     "tab-size": true,
     "unitless-zero": true,
     "sort-order": [
+        [ "composes" ],
 		[
             "$import",
             "$variable",
@@ -74,6 +75,8 @@
             "flex-direction",
             "flex-order",
             "flex-pack",
+            "flex-wrap",
+            "justify-content",
             "column-count",
             "column-fill",
             "column-rule",
@@ -342,6 +345,15 @@
           "$include lang"
         ],
         [
+          "$include bp small"
+        ],
+        [
+          "$include bp small med"
+        ],
+        [
+          "$include bp small large"
+        ],
+        [
           "$include bp med"
         ],
         [
@@ -349,6 +361,9 @@
         ],
         [
           "$include bp wide"
+        ],
+        [
+          "$include bp"
         ],
         [
         "$include respond-to"
